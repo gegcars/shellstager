@@ -1,0 +1,25 @@
+
+from keystone import *  # code assembler
+
+HOST="127.0.0.1"    # Default Host Address
+PORT=4444           # Default Port Number
+FORMAT="raw"        # Default Format
+CURRENT_STAGER="reverse_tcp"    # Default stager
+
+class ${PAYLOAD_NAME}(object):
+    def __init__(self) -> None:
+        self.name = type(self).__name__
+        self.platform = "${PLATFORM}"
+        self.arch = "${ARCH}"
+        self.sctype = "${SHELLCODE_TYPE}"
+        self.stagers = "${STAGERS}"
+        self.description = "PUT THE SHELLCODE DESCRIPTION HERE"
+        # Add your extra configuration here
+        
+
+    def build_shellcode(self):
+        '''
+        CODE HERE FOR BUILDING EXECUTABLE
+        '''
+        pass
+
