@@ -21,3 +21,4 @@ References:
 <br>Metasploit
 <br>Capstone
 <br>Keystone
+<br>pefile
