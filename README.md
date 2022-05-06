@@ -12,7 +12,7 @@ This tool helps on Shellcode understanding and development. It also includes Ser
 
 
 <br><br><br>
-NOTE:<br>
+Note:<br>
 *This is an attempt on understanding internals of Shellcodes in backdoors or implants if you will. Although that Metasploit was used to be written in Python, I write this as it is my way of learning things.*
 
 <br><br>
