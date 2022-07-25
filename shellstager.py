@@ -21,7 +21,7 @@ def parse_shellstager_cmd():
                     break
                 idx+=1
 
-        parser = ArgumentParser(description="ShellStager - tool for penetration testing.")
+        parser = ArgumentParser(description="ShellStager - Shellcode maker for penetration testing.")
         subparsers = parser.add_subparsers()
         getpload = subparsers.add_parser("payload", help="Payload Options.")
         getpload.add_argument("--payload", action="store_true", default=True, help="Payload Options flag.")

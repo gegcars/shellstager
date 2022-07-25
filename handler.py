@@ -468,7 +468,7 @@ def load_payload(name):
 def parse_handler_cmd():
     args = None
     try:
-        parser = ArgumentParser(description="ShellStager - tool for penetration testing.")
+        parser = ArgumentParser(description="ShellStager - Shellcode maker for penetration testing.")
         subparsers = parser.add_subparsers()
         schandler = subparsers.add_parser("run", help="Run a Service to handle communication.")
         schandler.add_argument("--payload", required=True, help="Payload full path. Example: windows/x86/stagers/reverse_tcp")

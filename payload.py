@@ -192,7 +192,7 @@ class Payloads(object):
 def parse_payload_cmd():
     args = None
     try:
-        parser = ArgumentParser(description="ShellStager - tool for penetration testing.")
+        parser = ArgumentParser(description="ShellStager - Shellcode maker for penetration testing.")
         parser.add_argument("-l","--list-payloads", action="store_true", help="List all available Payloads.")
         parser.add_argument("-s", "--search-payload", help="List all available Payloads.")        
         
