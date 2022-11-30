@@ -2,4 +2,3 @@
 keystone
 capstone
 pefile
-sqlite3
